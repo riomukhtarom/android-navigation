@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 moveToActivity(BottomNavigationActivity.class);
                 break;
             case R.id.btn_tab_layout:
+                moveToActivity(TabActivity.class);
                 break;
             case R.id.btn_nav_draw:
                 break;
